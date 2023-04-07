@@ -64,6 +64,7 @@ h2{
 	text-align: center;
 	font-size: 30px;
 	width: inherit;
+	background-color: #FFFF8F;
 }
 #p{
 	height:610px;

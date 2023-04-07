@@ -59,9 +59,11 @@ button:hover {
 }
 
 h2{
-margin-top:35px;
+	margin:10px;
 	text-align: center;
 	font-size: 30px;
+	width: inherit;
+	background-color: #FFFF8F;
 }
 #p{
 	height:610px;
@@ -89,6 +91,9 @@ thead {
 .id{
 	width: 300px;
 }
+fieldset{
+	padding-bottom: 20px;
+}
 </style>
 </head>
 <body>
@@ -103,9 +108,9 @@ thead {
 						<td ><input type="number" name="id" required="required"></td>
 					</tr>
 				</table>
-			</fieldset>
+			
 			<button type="submit">SEARCH</button>
-		</form>
+	
 		<%
 		if (msg != null) {
 		%>
@@ -118,6 +123,8 @@ thead {
 		<%
 		if (employee != null) {
 		%>
+		</fieldset>
+			</form>
 		<table border="2px solid black" class="table">
 			<thead>
 				<tr>

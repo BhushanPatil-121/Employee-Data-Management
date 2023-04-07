@@ -64,6 +64,7 @@ h2{
 	margin:10px;
 	text-align: center;
 	font-size: 30px;
+	background-color: #FFFF8F;
 }
 
 

@@ -109,6 +109,7 @@ h2 {
 	margin-top: 35px;
 	text-align: center;
 	font-size: 30px;
+	background-color: #FFFF8F;
 }
 a{
 	text-decoration: none;

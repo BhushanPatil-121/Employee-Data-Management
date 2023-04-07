@@ -53,6 +53,7 @@ h1{
 margin-top:35px;
 	text-align: center;
 	font-size: 35px;
+	background-color: #FFFF8F;
 }
 #p{
 	height:580px;
